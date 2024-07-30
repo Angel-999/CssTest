@@ -10,8 +10,3 @@
         --background2: lime;
     }
 }
-:root{
-    color-scheme: light dark;
-    --background: light-dark(orange, red);
-    --background2:light-dark(lime, green);
-}
