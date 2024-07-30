@@ -1,3 +1,15 @@
+@media (prefers-color-scheme: dark) {
+    :root{
+        --background: red;
+        --background2: green;
+    }
+}
+@media (prefers-color-scheme: light) {
+    :root{
+        --background: orange;
+        --background2: lime;
+    }
+}
 :root{
     color-scheme: light dark;
     --background: light-dark(orange, red);
