@@ -1,0 +1,19 @@
+:root{
+    --background: red;
+    --background2:#00ff00;
+}
+body{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100dvh;
+}
+.one{
+    background-color: var(--background);
+}
+.two{
+    background-color: var(--background2, #00ff00);
+}
+.three{
+    background-color: #0000ff;
+}
