@@ -1,5 +1,7 @@
-body{
+html{
     color-scheme: light dark;
+}
+body{
     margin: 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
