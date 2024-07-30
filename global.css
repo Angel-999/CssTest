@@ -1,4 +1,5 @@
 :root{
-    --background: red;
-    --background2:#00ff00;
+    color-scheme: light dark;
+    --background: light-dark(orange, red);
+    --background2:light-dark(lime, green);
 }
